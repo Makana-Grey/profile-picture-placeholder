@@ -1,0 +1,17 @@
+{
+  "name": "profile-picture-placeholder",
+  "version": "0.0.1",
+  "description": "Package for generation profile pictures by rectangles like on GitHub or GitLab",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Makana Grey",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Makana-Grey/profile-picture-placeholder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Makana-Grey/profile-picture-placeholder/issues"
+  },
+  "homepage": "https://github.com/Makana-Grey/profile-picture-placeholder#readme",
+  "type": "module"
+}
