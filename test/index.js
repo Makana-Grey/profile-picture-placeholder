@@ -3,8 +3,8 @@ import {
   generateColor,
   generateRelatedColor,
 } from "../lib/colorGenerator.js";
-import { generateMirror } from "../lib/mirrorGenerator";
-import { generatePicture } from "../lib/pictureGenerator";
+import { generateMirror } from "../lib/mirrorGenerator.js";
+import { generatePicture } from "../lib/pictureGenerator.js";
 
 const cellSize = 50;
 
@@ -39,7 +39,7 @@ const halfPicture = generatePicture(pattern, options);
 const pictire = generateMirror(
   halfPicture,
   {
-    x: { oneLast: true },
+    x: { notHonest: true },
   },
   cellSize,
   cellSize
